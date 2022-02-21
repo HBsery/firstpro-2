@@ -15,7 +15,7 @@ import java.util.List;
 public class BoardController {
 
     @Autowired
-    private BoardRepository boardRepository;
+    private BoardRepository boardRepository; //오토와이드
 
     @GetMapping("/list")
     public String list(Model model){
